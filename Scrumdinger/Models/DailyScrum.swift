@@ -15,7 +15,7 @@ struct DailyScrum {
 }
 
 extension DailyScrum {
-    static var data: [DailyScrum] {
+    static var mockData: [DailyScrum] {
         [
             DailyScrum(title: "Design",
                        attendees: ["Cathy", "Daisy", "Simon", "Jonathan"],
