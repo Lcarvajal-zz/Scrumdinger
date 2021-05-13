@@ -19,12 +19,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let meetingView = MeetingView()
+        let scrumsView = ScrumsView(scrums: DailyScrum.mockData)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: meetingView)
+            window.rootViewController = UIHostingController(rootView: scrumsView)
             self.window = window
             window.makeKeyAndVisible()
         }
