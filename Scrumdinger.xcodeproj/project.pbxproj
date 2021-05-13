@@ -17,6 +17,7 @@
 		8D65803C264D76A9009D3260 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65803B264D76A9009D3260 /* CardView.swift */; };
 		8D65803E264D7FFC009D3260 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65803D264D7FFC009D3260 /* ScrumsView.swift */; };
 		8D658040264DBAF3009D3260 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65803F264DBAF3009D3260 /* ScrumdingerApp.swift */; };
+		8D658042264DBE39009D3260 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D658041264DBE39009D3260 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8D65803B264D76A9009D3260 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8D65803D264D7FFC009D3260 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		8D65803F264DBAF3009D3260 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
+		8D658041264DBE39009D3260 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			children = (
 				8D65803B264D76A9009D3260 /* CardView.swift */,
 				8D65803D264D7FFC009D3260 /* ScrumsView.swift */,
+				8D658041264DBE39009D3260 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D658039264D74C9009D3260 /* DailyScrum.swift in Sources */,
+				8D658042264DBE39009D3260 /* DetailView.swift in Sources */,
 				8D65803E264D7FFC009D3260 /* ScrumsView.swift in Sources */,
 				8D658040264DBAF3009D3260 /* ScrumdingerApp.swift in Sources */,
 				8D65800C264D6BE4009D3260 /* MeetingView.swift in Sources */,
